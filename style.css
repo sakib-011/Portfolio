@@ -1208,7 +1208,7 @@ footer:hover {
   .contact-info .social_media{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
   }
 
 .skill-container img{
