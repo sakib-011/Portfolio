@@ -1,0 +1,38 @@
+
+.notMobile{
+    margin-top: 150px;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 1060px){
+.mobile{
+    margin-top: -30px;
+    display: block;
+}
+
+.notMobile{
+    display: none;
+}
+
+}
+
+@media (max-width: 390px){
+.mobile{
+    margin-top: -30px;
+    display: block;
+}
+
+.skill-container img{
+    height: 30px;
+    width: 30px;
+    border-width: 2px;
+}
+
+.notMobile{
+    display: none;
+}
+
+}

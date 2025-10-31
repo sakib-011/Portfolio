@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProtfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/contactStyle.css">
+
+    <!--Google font pre link code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!--font awesome link code-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+   <!-- Navbar -->
+    <nav class="main_menu">
+
+        <input type="checkbox" id="checkbox" class="checkbox">
+
+        <div class="btn-one">
+            <label for="checkbox">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+
+        <div class="navbar bg-body-tertiary navbar-menu">
+
+            <div class="container-fluid">
+                <div class="btn-two">
+                    <label for="checkbox">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div>
+
+                <div class="navbar-brand webName">
+                    <a href="home.html">
+                        <h2><span class="port">Port</span>folio</h2>
+                    </a>
+                </div>
+
+                <ul>
+                    <div class="menubar">
+                        <div class="menubar-wrapper">
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-house"></i>
+                                <a href="home.html">Home</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="about.html">About</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-code"></i>
+                                <a href="skills.html">Skills</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <a href="project.html">Project</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <a href="testimonial.html">Testimonial</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="contact.html">Contact</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-download"></i>
+                                <a download href="/resume/Sakib_Resume.pdf">Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="social_media" id="Outside_social_media">
+            <a href="https://github.com/sakib-011"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sakib-71b491367/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sakibshourov1"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://codeforces.com/profile/sakib_shourov72542"><i class="fas fa-terminal"></i></a>
+        </div>
+
+
+    </nav>
+
+    <!--Contact info with Contact Section  -->
+    <div class="contact-section">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <hr>
+                <h4>Phone Number</h4>
+                <p>01307638741</p>
+                <h4>Email</h4>
+                <p>sakibshourov01@gmail.com</p>
+            </div>
+
+            <div class="social_media" id="Outside_social_media">
+                <a href="https://github.com/sakib-011"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sakib-71b491367/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/sakibshourov1"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://codeforces.com/profile/sakib_shourov72542"><i class="fas fa-terminal"></i></a>
+            </div>
+               
+
+        </div>
+
+        <!-- Contact Form -->
+        <form action="https://api.web3forms.com/submit" method="POST" class="main">
+            <div class="contact-container">
+                <h2>Contact with me</h2>
+                <div class="container">
+
+                    <input type="hidden" name="access_key" value="36ecb49a-2edd-460f-8f42-0572961c9b1b">
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="firstName">First Name<sup>*</sup></label>
+                            <input type="text" placeholder="First name" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="col">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" placeholder="Last name" id="lastName" name="lastName">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="email">Email<sup>*</sup></label>
+                            <input type="email" placeholder="Enter your email" id="email" name="email" required>
+                        </div>
+
+                        <div class="col">
+                            <label for="phone">Mobile Number</label>
+                            <input type="number" placeholder="Enter your contact number" id="phone" name="phoneNumber">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col full">
+                            <label for="message">Message<sup>*</sup></label>
+                            <textarea id="message" placeholder="Enter your message" name="message" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col btn-col">
+                            <button id="sent-btn" type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <p>&#128222; Contact: +8801307638741 &nbsp;&nbsp;||&nbsp&nbsp;&nbsp; &#9993; Email: sakibshourov01@gmail.com
+            </p>
+            <p>
+                &#127760; Follow me on
+                <a href="https://github.com/sakib-011" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/sakib-71b491367/" target="_blank">LinkedIn</a>
+            </p>
+            <p class="credit">Made with &#10084; by Sakib</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
