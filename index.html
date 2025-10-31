@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>MyProtfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!--Bootstrap link code-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google font pre link code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <!--font awesome link code-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+   <!-- Navbar -->
+    <nav class="main_menu">
+
+        <input type="checkbox" id="checkbox" class="checkbox">
+
+        <div class="btn-one">
+            <label for="checkbox">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+
+        <div class="navbar bg-body-tertiary navbar-menu">
+
+            <div class="container-fluid">
+                <div class="btn-two">
+                    <label for="checkbox">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div>
+
+                <div class="navbar-brand webName">
+                    <a href="index.html">
+                        <h2><span class="port">Port</span>folio</h2>
+                    </a>
+                </div>
+
+                <ul>
+                    <div class="menubar">
+                        <div class="menubar-wrapper">
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-house"></i>
+                                <a href="/index.html">Home</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="about.html">About</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-code"></i>
+                                <a href="skills.html">Skills</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <a href="project.html">Project</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <a href="testimonial.html">Testimonial</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="contact.html">Contact</a>
+                            </div>
+
+                            <div class="menu-item">
+                                <i class="fa-solid fa-download"></i>
+                                <a download href="Sakib_Resume.pdf">Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="social_media" id="Outside_social_media">
+            <a href="https://github.com/sakib-011"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sakib-71b491367/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sakibshourov1"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://codeforces.com/profile/sakib_shourov72542"><i class="fas fa-terminal"></i></a>
+        </div>
+
+
+    </nav>
+
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Heading Text and Image -->
+        <section class="home-content">
+            <div class="text-section">
+                <h1>Hi, I'm <span>Sakib</span></h1>
+                <h3>A Passionate CSE Student & Developer</h3>
+                <p>
+                    I love coding, problem-solving, and creating meaningful projects
+                    that make an impact. My goal is to keep learning, innovating,
+                    and building great things through technology.
+                </p>
+            </div>
+
+            <div class="image-content">
+                <img src="myImage.jpg" alt="Sakib's Image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Computer Science student with a love for problem-solving and creating meaningful
+                projects.
+                I am interested in software development and programming, and I work with languages like Java, C++, and
+                Python.
+                My goal is to turn ideas into real-world applications through code.
+            </p>
+
+            <p>
+                Beyond coding, I enjoy exploring new technologies, cycling, and continuously learning new skills to grow
+                both personally and professionally.
+            </p>
+        </div>
+
+        <!-- Interest-Section -->
+        <div class="interest-container">
+            <h2>Interest</h2>
+
+            <div class="container">
+                <div class="row ">
+
+                    <div class="col card" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="contest.png"
+                                alt="Contest">
+                            <h4 class="card-title">Compatative proramming</h4>
+                            <p calss="card-text">
+                                I love solving logical and algorithmic problems on platforms
+                                like Codeforces and LeetCode — it sharpens my mind and improves
+                                my coding speed.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col card datascience" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="python1.png"
+                                alt="Python">
+                            <h4 class="card-title">Python & Data Analysis</h4>
+                            <p calss="card-text">
+                                I enjoy working with Python, Pandas, and Matplotlib to
+                                analyze data and uncover meaningful insights from numbers.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col card ai" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="ai.png"
+                                alt="AI">
+                            <h4 class="card-title">Machine Learning & AI</h4>
+                            <p calss="card-text">
+                                I’m curious about how machines learn and make decisions — I
+                                explore AI concepts and small ML projects to understand them better.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="btn-col" class="col">
+                        <a href="about.html" class="btn btn-outline-primary">Show More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Skill-Section -->
+        <div class="skill-container">
+            <h2>Skills</h2>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col position-relative" id="java"><img src="java.png"
+                            alt="Java">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger javaLabel">Java</span>
+                    </div>
+
+                    <div class="col" id="c"><img src="c.jpg" alt="C">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger cLabel">C</span>
+                    </div>
+
+                    <div class="col" id="cpp"><img src="cpp.png" alt="Cpp">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger cppLabel">Cpp</span>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col" id="python"><img src="python.jpeg" alt="Python">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger pythonLabel">Python</span>
+                    </div>
+
+                    <div class="col" id="matplotlib"><img src="matplotlib.png"
+                            alt="Matplotlib">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger matLabel">Matplotlib</span>
+                    </div>
+
+                    <div class="col" id="mySql"><img src="mysql.png" alt="mySql">
+                        <span
+                            class="position-absolute top-5 start-5 translate-middle badge rounded-pill bg-danger mySqlLabel">MySql</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skill-Progress-Bar -->
+        <div class="skills-section">
+            <h2><span>My</span> Skills</h2>
+            <hr>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">C</span>
+                    <span class="skill-percent">50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress c"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-percent">60%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress cpp"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">Java</span>
+                    <span class="skill-percent">55%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress java"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">Python</span>
+                    <span class="skill-percent">50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress python"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">pandas</span>
+                    <span class="skill-percent">50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress pandas"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">matplotlib</span>
+                    <span class="skill-percent">45%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress matplotlib"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span class="skill-name">MySQL</span>
+                    <span class="skill-percent">50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress mysql"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Projects-Section -->
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col card" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="java.png"
+                                alt="Java Project">
+                            <h3 class="card-title">Digital Art Work Platform</h3>
+                            <p calss="card-text">
+                                A dektop application for artists , buyer to create,
+                                showcase, and share digital artwork, with interactive galleries and social features for
+                                engagement.
+                            </p>
+                            <a href="https://github.com/sakib-011/Digital_Artwork_Platform" id="github"
+                                class="btn btn-outline-primary"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col card sms" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="java.png"
+                                alt="Java Project">
+                            <h3 class="card-title">Student Management System</h3>
+                            <p calss="card-text">
+                                A console-based application where the admin can add, delete, update,
+                                and view students and courses, managing all student and course-related information
+                                efficiently.
+                            </p>
+                            <a href="https://github.com/sakib-011/Student-Management-System-Project---1-" id="github"
+                                class="btn btn-outline-primary"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col card fd" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="python1.png"
+                                alt="Python Porject">
+                            <h3 class="card-title">Face Detection</h3>
+                            <p calss="card-text">
+                                A Python-based project that detects and recognizes human faces in images or real-time
+                                video using libraries like OpenCV and face recognition,
+                                enabling applications in security, attendance, and automation.
+                            </p>
+                            <a href="https://github.com/sakib-011/Face-detector" id="github" class="btn btn-outline-primary"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="col card" id="col">
+                        <div class="card-body">
+                            <img id="cardImage" class="card-image-top" src="python1.png"
+                                alt="Python Project">
+                            <h3 class="card-title">Snake Game</h3>
+                            <p calss="card-text">
+                                A classic snake game built with Python where the player controls a snake to eat food,
+                                grow in length,
+                                and avoid collisions, using libraries like pygame for graphics and controls.
+                            </p>
+                            <a href="https://github.com/sakib-011/Snake-Game-Using-Python" id="github"
+                                class="btn btn-outline-primary"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="btn-col" class="col">
+                        <a href="project.html" class="btn btn-outline-primary">Show More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Testimonials-->
+
+        <section class="testimonials">
+            <h2>What People Say</h2>
+            <div class="testimonial-container">
+                
+                <div class="testimonial-card">
+                    <img src="abir.png" alt="ARM Abir Hasan">
+                    <h3>ARM Abir Hasan</h3>
+                    <h4>Teammate, Southeast University</h4>
+                    <p>"Sakib is a highly motivated and passionate developer with a strong eye for detail. His ability to turn ideas into visually appealing and functional web applications is truly impressive."</p>
+                </div>
+
+                <div class="testimonial-card shihab">
+                    <img src="shihab.jpg" alt="Shohanur Rahman Shihab">
+                    <h3>Md. Shohanur Rahman Shihab</h3>
+                    <h4>Friend & Developer</h4>
+                    <p>"Working with Sakib was a great experience. He’s not only skilled in coding but also creative in design and problem-solving. His portfolio showcases his dedication to continuous learning."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="rowdro.jpg" alt="Rowdro Morong">
+                    <h3>Rowdro Morong</h3>
+                    <h4>Friend & Developer</h4>
+                    <p>"Sakib is one of the most hardworking students I’ve met. His passion for technology and innovation drives him to keep improving every single day."</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact-info and Contact with me section -->
+        <div class="contact-section">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="container">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                    <h4>Phone Number</h4>
+                    <p>01307638741</p>
+                    <h4>Email</h4>
+                    <p>sakibshourov01@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="main">
+                <div class="contact-container">
+                    <h2>Contact with me</h2>
+                    <div class="container">
+
+                        <input type="hidden" name="access_key" value="36ecb49a-2edd-460f-8f42-0572961c9b1b">
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="firstName">First Name<sup>*</sup></label>
+                                <input type="text" placeholder="First name" id="firstName" name="firstName" required>
+                            </div>
+
+                            <div class="col">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" placeholder="Last name" id="lastName" name="lastName">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="email">Email<sup>*</sup></label>
+                                <input type="email" placeholder="Enter your email" id="email" name="email" required>
+                            </div>
+
+                            <div class="col">
+                                <label for="phone">Mobile Number</label>
+                                <input type="number" placeholder="Enter your contact number" id="phone"
+                                    name="phoneNumber">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col full">
+                                <label for="message">Message<sup>*</sup></label>
+                                <textarea id="message" placeholder="Enter your message" name="message"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col btn-col">
+                                <button id="sent-btn" type="submit">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <p>&#128222; Contact: +8801307638741 &nbsp;&nbsp;||&nbsp&nbsp;&nbsp; &#9993; Email: sakibshourov01@gmail.com
+            </p>
+            <p>
+                &#127760; Follow me on
+                <a href="https://github.com/sakib-011" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/sakib-71b491367/" target="_blank">LinkedIn</a>
+            </p>
+            <p class="credit">Made with &#10084; by Sakib</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="profolio.js"></script>
+</body>
+
+</html>
