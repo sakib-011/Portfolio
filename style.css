@@ -793,7 +793,6 @@ margin-bottom: 20px;
 
 
 
-/* ===== Section Layout ===== */
 .contact-section {
   margin-top: 20px;
   margin-bottom: 100px;
@@ -807,7 +806,6 @@ margin-bottom: 20px;
   padding: 15px;
 }
 
-/* ===== Contact Info ===== */
 .contact-info {
   flex: 1 1;
   height: auto;
@@ -846,7 +844,7 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
-/* ===== Contact Container ===== */
+
 .contact-container {
   flex: 1 1;
   width: 100%;
@@ -864,7 +862,6 @@ margin-bottom: 20px;
   box-shadow: 0 0 25px rgba(255, 107, 0, 0.7);
 }
 
-/* ===== Headings ===== */
 .contact-container h2 {
   text-align: center;
   font-size: 28px;
@@ -878,7 +875,7 @@ margin-bottom: 20px;
   text-decoration-thickness: 5px;
 }
 
-/* ===== Layout Inside Form ===== */
+
 .contact-container .container {
   display: flex;
   flex-direction: column;
@@ -886,7 +883,7 @@ margin-bottom: 20px;
 }
 
 
-/* ===== Inputs ===== */
+
 .contact-container label {
   font-weight: 600;
   margin-bottom: 8px;
@@ -909,13 +906,12 @@ margin-bottom: 20px;
   box-shadow: 0 0 5px rgba(255, 107, 0, 0.4);
 }
 
-/* ===== Message box ===== */
+
 #message {
   min-height: 150px;
   resize: vertical;
 }
 
-/* ===== Submit Button ===== */
 #sent-btn {
   border: 2px solid #ff6b00;
   border-radius: 15px;
@@ -938,7 +934,7 @@ margin-bottom: 20px;
   justify-content: center;
 }
 
-/* ===== Required mark ===== */
+
 .contact-container sup {
   color: #ff6b00;
   font-size: 18px;
@@ -1074,7 +1070,6 @@ margin-top: auto;
     z-index: 5;
 }
 
-/* Footer  */
 footer a {
     color: #ff6b00;                     
     text-decoration: none;
@@ -1109,7 +1104,7 @@ footer:hover {
 
 
 
-/*Responsiv*/
+
 @media (max-width: 1060px) {
 
     .main{
@@ -1163,7 +1158,6 @@ footer:hover {
     font-size: 14px;
   }
 
-  
 .interest-container{
     width: auto;
     margin-left: -100px;
@@ -1183,7 +1177,6 @@ footer:hover {
     margin-left: -12px;
 }
 
-
 .interest-container .ai{
     display: none;
 }
@@ -1199,6 +1192,24 @@ footer:hover {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.skills-section h2{
+    font-size: 30px;
+  }
+
+.skill-container h2{
+  font-size: 30px;
+}
+
+.projects-container h2{
+    font-size: 30px;
+  }
+
+  .contact-info .social_media{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
 .skill-container img{
   height: 70px;
