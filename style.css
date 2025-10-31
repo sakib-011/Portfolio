@@ -1110,7 +1110,7 @@ footer:hover {
     .main{
         margin-top: 100px;
         margin-right: 10px;
-        margin-left: 130px;
+        margin-left: 115px;
         padding: 10px 10px 10px 10px;
     }
 
@@ -1258,12 +1258,13 @@ footer:hover {
    .contact-section .row {
   display: flex;
   flex-wrap: wrap;
+  max-width: auto;
   gap: 20px;
 }
 
 .contact-section .col {
   flex: 1 1 calc(50% - 20px);
-  min-width: 250px;
+  /* min-width: 250px; */
   display: flex;
   flex-direction: column;
 }
