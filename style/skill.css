@@ -19,15 +19,15 @@
 
 }
 
-@media (max-width: 390px){
+@media (max-width: 300px){
 .mobile{
     margin-top: -30px;
     display: block;
 }
 
 .skill-container img{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     border-width: 2px;
 }
 
