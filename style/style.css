@@ -1270,7 +1270,7 @@ footer:hover {
 }
 
 .contact-section .col.full {
-  fleflex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .testimonials{
